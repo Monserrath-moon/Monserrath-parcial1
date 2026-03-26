@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formularios - Monserrath Escamilla - 602</title>
+</head>
+<body>
+
+	<h2>Formularios</h2>
+	<h4>Por: Monserrath Escamilla - 602</h4>
+	<p>Los formularios son campos que permiten el ingreso de datos a la página, esto permite la interacción con el usuario.</p>
+
+	<hr>
+
+	<form method="get">
+		<label>Nombre:</label>
+		<input type="text" name="nombre" placeholder="Nombre completo" size="50" required>
+		<br>
+
+		<label>Correo Electrónico:</label>
+		<input type="email" name="correo" placeholder="escribe tu correo" required size="40">
+
+		<br>
+
+		<label>Contraseña:</label>
+		<input type="password" name="clave" placeholder="minimo 8 caractéres" minlength="8">
+
+		<br>
+		<label>Fecha de nacimiento:</label>
+		<input type="date" name="fecha" required>
+		<br>
+		<label>Nacionslidad</label>
+		<select>
+			<option selected disabled>Selecciona País</option>
+			<option>México</option>
+			<option>Norcorea</option>
+			<option>Estados Unidos</option>
+			<option>Perú</option>
+			<option>Rusia</option>
+			<option>Canadá</option>
+			<option>Brasil</option>
+			<option>China</option>
+			<option>Arngentina</option>
+		</select>
+		<br>
+
+		<br>
+		<label>Selecciona tus pasatiempos</label><br>
+		<input type="checkbox" name="">Leer <br>
+		<input type="checkbox" name=""> Escuchar musica <br>
+		<input type="checkbox" name=""> Pintar <br>
+		<input type="checkbox" name=""> Escribir <br>
+		<input type="checkbox" name=""> Mirar peliculas <br>
+		<br>
+
+		<label>Género:</label>
+		Hombre <input type="radio" name="género">
+		Mujer <input type="radio" name="género">
+		Prefiero No decirlo <input type="radio" name="género">
+
+		<br>
+
+		<label>Sube tu foto:</label>
+		<input type="file" name="archivo">
+		<br>
+		<br>
+
+		<label>Escribe un mensaje</label><br>
+
+		<textarea required placeholder="Esribe un mensaje"></textarea>
+
+		<br>
+		<br>
+		<input type="submit" name="boton" value="Contacta al 602">
+
+		<input type="reset" name="limpiar">
+
+		<br>
+
+<a href="../index.principal.html">Volver</a>
+
+	</form>
+
+</body>
+</html>
